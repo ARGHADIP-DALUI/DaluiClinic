@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Patient Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <!-- Header (UNCHANGED) -->
+      <div class="patient-header">
+        <h1>PATIENT DETAILS FORM</h1>
+      </div>
+
+      <!-- Form Card -->
+      <div class="form-card">
+        <input
+          type="text"
+          id="name"
+          class="form-input"
+          placeholder="Enter your name"
+        />
+
+        <input
+          type="tel"
+          id="phone"
+          class="form-input"
+          placeholder="Enter your phone number"
+        />
+
+        <select class="form-input" id="daySelect">
+          <option value="">Choose your convenience day</option>
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+          <option value="thursday">Thursday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
+          <option value="sunday">Sunday</option>
+        </select>
+
+        <select class="form-input" id="slotSelect">
+          <option value="">Choose one day slot</option>
+        </select>
+
+        <div class="form-actions">
+          <a href="qur-en.html" class="submit-btn">Prev</a>
+          <button class="submit-btn" id="submitBtn">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/booking-en.js"></script>
+  </body>
+</html>
